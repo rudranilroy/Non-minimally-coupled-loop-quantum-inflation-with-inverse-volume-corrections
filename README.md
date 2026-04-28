@@ -1,1 +1,1 @@
-# Non-minimally-coupled-loop-quantum-inflation-with-inverse-volume-corrections
+# Non-minimally coupled loop quantum inflation with inverse volume-corrections
