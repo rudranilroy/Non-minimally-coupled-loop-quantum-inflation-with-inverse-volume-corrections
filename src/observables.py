@@ -17,7 +17,7 @@ Scalar power spectrum amplitude:
     A_s = H*² / (8π² ε₁*)   ×  (Jordan-frame correction)
 
 IV correction to n_s (first order in α):
-    Δn_s^IV = −2 σ α (a_*/a_*)^σ  ... (evaluated at horizon crossing)
+    Δn_s^IV = −2 σ α (a_*/a_k)^σ  ... (evaluated at horizon crossing)
 
 The slow-roll parameters are extracted directly from the numerical solution
 of the background equations (background.py).
