@@ -1,0 +1,100 @@
+Parameter autocorrelation lengths (effective number of samples N_eff = tot weight/weight length)
+
+               Weight Length   Sample length           N_eff
+omegam                 55.48           17.21            2649
+omegab                 50.04           15.52            2937
+H0                     60.95           18.91            2411
+A                      82.41           25.56            1783
+ns                     52.77           16.37            2785
+omegabh2               57.02           17.69            2577
+omegach2               65.44           20.30            2246
+omegal                 55.48           17.21            2649
+logA                   73.62           22.84            1996
+sigma8                 35.83           11.11            4102
+S8                     42.22           13.10            3481
+s8omegamp5             42.22           13.10            3481
+s8omegamp25            34.83           10.80            4220
+chi2_lensing           25.96            8.05            5662
+chi2_6DF               27.13            8.42            5417
+chi2_MGS               36.47           11.31            4030
+chi2_DR12BAO           29.88            9.27            4918
+chi2_BAO               38.64           11.99            3804
+
+
+mean convergence stats using remaining chains
+param sqrt(var(chain mean)/mean(chain var))
+
+omegam           0.0398  \Omega_m
+omegab           0.0116  \Omega_b
+H0               0.0266  H_0
+A                0.0490  10^9 A_s
+ns               0.0540  n_s
+omegabh2         0.0250  \Omega_b h^2
+omegach2         0.0335  \Omega_c h^2
+omegal           0.0398  \Omega_\Lambda
+logA             0.0437  {\rm{ln}}(10^{10} A_s)
+sigma8           0.0546  \sigma_8
+S8               0.0444  S_8
+s8omegamp5       0.0444  \sigma_8 \Omega_m^{0.5}
+s8omegamp25      0.0503  \sigma_8 \Omega_m^{0.25}
+chi2_lensing     0.0378  \chi^2_{\rm lensing}
+chi2_6DF         0.0366  \chi^2_{\rm 6DF}
+chi2_MGS         0.0385  \chi^2_{\rm MGS}
+chi2_DR12BAO     0.0215  \chi^2_{\rm DR12BAO}
+chi2_BAO         0.0353  \chi^2_{\rm BAO}
+
+var(mean)/mean(var) for eigenvalues of covariance of means of orthonormalized parameters
+  1     -0.00000
+  2      0.00000
+  3      0.00114
+  4      0.00315
+  5      0.00617
+
+Split tests: rms_n([delta(upper/lower quantile)]/sd) n={2,3,4}, limit=95%:
+i.e. mean sample splitting change in the quantiles in units of the st. dev.
+
+omegam          0.0243   0.0243   0.0688 upper
+omegam          0.0363   0.0544   0.0753 lower
+omegab          0.0151   0.0252   0.0246 upper
+omegab          0.0048   0.0061   0.0080 lower
+H0              0.0590   0.0954   0.0991 upper
+H0              0.0099   0.0327   0.0254 lower
+A               0.2194   0.2894   0.2535 upper
+A               0.0130   0.0062   0.0410 lower
+ns              0.0049   0.0292   0.0156 upper
+ns              0.0038   0.0065   0.0084 lower
+omegabh2        0.0425   0.0899   0.0968 upper
+omegabh2        0.0008   0.0093   0.0100 lower
+omegach2        0.0094   0.0669   0.0644 upper
+omegach2        0.0600   0.0826   0.0775 lower
+omegal          0.0363   0.0544   0.0753 upper
+omegal          0.0243   0.0243   0.0688 lower
+logA            0.1623   0.2127   0.1873 upper
+logA            0.0181   0.0086   0.0571 lower
+sigma8          0.0040   0.0865   0.0568 upper
+sigma8          0.0213   0.0231   0.0359 lower
+S8              0.0081   0.0436   0.1215 upper
+S8              0.0288   0.0430   0.0434 lower
+s8omegamp5      0.0081   0.0436   0.1215 upper
+s8omegamp5      0.0288   0.0430   0.0434 lower
+s8omegamp25     0.0127   0.0489   0.0924 upper
+s8omegamp25     0.0096   0.0267   0.0559 lower
+chi2_lensing    0.0341   0.0779   0.1821 upper
+chi2_lensing    0.0023   0.0027   0.0079 lower
+chi2_6DF        0.0356   0.0901   0.2212 upper
+chi2_6DF        0.0000   0.0001   0.0001 lower
+chi2_MGS        0.0000   0.0636   0.0954 upper
+chi2_MGS        0.0000   0.0000   0.0444 lower
+chi2_DR12BAO    0.0518   0.0858   0.0873 upper
+chi2_DR12BAO    0.0053   0.0101   0.0104 lower
+chi2_BAO        0.0265   0.0619   0.0713 upper
+chi2_BAO        0.0138   0.0175   0.0153 lower
+
+Raftery&Lewis statistics
+
+chain  markov_thin  indep_thin    nburn
+   0          34          97         340
+   1          43          61         258
+   2          36          43         288
+   3          38          73         418
+

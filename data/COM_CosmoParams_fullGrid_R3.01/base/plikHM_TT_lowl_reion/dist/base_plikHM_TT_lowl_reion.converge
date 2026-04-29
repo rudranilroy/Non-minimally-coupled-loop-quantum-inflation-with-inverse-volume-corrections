@@ -1,0 +1,384 @@
+Parameter autocorrelation lengths (effective number of samples N_eff = tot weight/weight length)
+
+              Weight Length   Sample length           N_eff
+omegabh2              27.42           11.73            3205
+omegach2              24.92           10.66            3526
+theta                 24.79           10.60            3545
+tau                   25.77           11.02            3410
+logA                  26.56           11.36            3309
+ns                    25.19           10.77            3488
+calPlanck             23.52           10.06            3736
+acib217                5.78            2.47           15211
+xi                     6.65            2.84           13221
+asz143                 7.20            3.08           12198
+aps100                 6.66            2.85           13189
+aps143                 7.76            3.32           11331
+aps143217              6.30            2.69           13952
+aps217                 5.80            2.48           15165
+aksz                   7.20            3.08           12203
+kgal100                5.81            2.48           15137
+kgal143                5.78            2.47           15216
+kgal143217             5.80            2.48           15144
+kgal217                5.62            2.40           15629
+cal0                   5.77            2.47           15232
+cal2                   5.82            2.49           15107
+H0                    25.06           10.72            3506
+omegal                25.00           10.69            3515
+omegam                25.00           10.69            3515
+omegamh2              24.83           10.62            3539
+omegamh3              26.89           11.50            3268
+sigma8                26.30           11.25            3341
+S8                    25.51           10.91            3445
+s8omegamp5            25.51           10.91            3445
+s8omegamp25           25.61           10.95            3431
+s8h5                  25.70           10.99            3420
+rdragh                24.89           10.64            3531
+rmsdeflect            25.56           10.93            3438
+zrei                  25.54           10.92            3440
+A                     26.60           11.38            3303
+clamp                 25.46           10.89            3451
+DL40                  25.74           11.01            3413
+DL220                 26.51           11.34            3315
+DL810                 25.37           10.85            3463
+DL1420                25.89           11.07            3394
+DL2000                26.71           11.42            3290
+ns02                  25.19           10.77            3488
+yheused               27.41           11.72            3206
+YpBBN                 27.41           11.72            3206
+DHBBN                 27.42           11.72            3205
+age                   26.15           11.18            3361
+zstar                 26.44           11.30            3324
+rstar                 25.10           10.73            3501
+thetastar             24.74           10.58            3551
+DAstar                25.22           10.78            3484
+zdrag                 27.51           11.76            3194
+rdrag                 25.15           10.75            3494
+kd                    25.57           10.93            3437
+thetad                27.52           11.77            3193
+zeq                   24.83           10.62            3539
+keq                   24.83           10.62            3539
+thetaeq               24.83           10.62            3539
+thetarseq             24.79           10.60            3544
+Hubble015             25.09           10.73            3502
+DM015                 25.10           10.73            3501
+Hubble038             25.19           10.77            3489
+DM038                 25.12           10.74            3498
+Hubble051             25.30           10.82            3474
+DM051                 25.14           10.75            3496
+Hubble061             25.82           11.04            3403
+DM061                 25.15           10.75            3494
+Hubble233             25.19           10.77            3489
+DM233                 26.07           11.15            3370
+fsigma8z015           25.52           10.91            3444
+sigma8z015            26.37           11.28            3332
+fsigma8z038           25.57           10.94            3436
+sigma8z038            26.44           11.31            3323
+fsigma8z051           25.62           10.96            3429
+sigma8z051            26.45           11.31            3322
+fsigma8z061           25.67           10.98            3424
+sigma8z061            26.45           11.31            3322
+fsigma8z233           26.40           11.29            3328
+sigma8z233            26.29           11.24            3342
+f2000_143             13.24            5.66            6637
+f2000_x               15.20            6.50            5781
+f2000_217             12.15            5.20            7230
+chi2_lowl             24.85           10.63            3536
+chi2_plik              9.88            4.23            8891
+chi2_prior             9.95            4.26            8831
+chi2_CMB               9.50            4.06            9246
+
+
+mean convergence stats using remaining chains
+param sqrt(var(chain mean)/mean(chain var))
+
+omegabh2        0.0370  \Omega_b h^2
+omegach2        0.0169  \Omega_c h^2
+theta           0.0196  100\theta_{MC}
+tau             0.0586  \tau
+logA            0.0480  {\rm{ln}}(10^{10} A_s)
+ns              0.0335  n_s
+calPlanck       0.0428  y_{\rm cal}
+acib217         0.0158  A^{CIB}_{217}
+xi              0.0183  \xi^{tSZ-CIB}
+asz143          0.0159  A^{tSZ}_{143}
+aps100          0.0185  A^{PS}_{100}
+aps143          0.0113  A^{PS}_{143}
+aps143217       0.0092  A^{PS}_{143\times 217}
+aps217          0.0142  A^{PS}_{217}
+aksz            0.0237  A^{kSZ}
+kgal100         0.0060  A^{{\rm dust}TT}_{100}
+kgal143         0.0129  A^{{\rm dust}TT}_{143}
+kgal143217      0.0217  A^{{\rm dust}TT}_{143\times 217}
+kgal217         0.0162  A^{{\rm dust}TT}_{217}
+cal0            0.0080  c_{100}
+cal2            0.0135  c_{217}
+H0              0.0206  H_0
+omegal          0.0185  \Omega_\Lambda
+omegam          0.0185  \Omega_m
+omegamh2        0.0167  \Omega_m h^2
+omegamh3        0.0361  \Omega_m h^3
+sigma8          0.0279  \sigma_8
+S8              0.0049  S_8
+s8omegamp5      0.0049  \sigma_8 \Omega_m^{0.5}
+s8omegamp25     0.0078  \sigma_8 \Omega_m^{0.25}
+s8h5            0.0126  \sigma_8/h^{0.5}
+rdragh          0.0186  r_{\rm drag} h
+rmsdeflect      0.0099  \langle d^2\rangle^{1/2}
+zrei            0.0581  z_{\rm re}
+A               0.0484  10^9 A_s
+clamp           0.0397  10^9 A_s e^{-2\tau}
+DL40            0.0341  D_{40}
+DL220           0.0527  D_{220}
+DL810           0.0499  D_{810}
+DL1420          0.0512  D_{1420}
+DL2000          0.0519  D_{2000}
+ns02            0.0335  n_{s,0.002}
+yheused         0.0363  Y_P
+YpBBN           0.0363  Y_P^{\rm{BBN}}
+DHBBN           0.0369  10^5D/H
+age             0.0310  {\rm{Age}}/{\rm{Gyr}}
+zstar           0.0293  z_*
+rstar           0.0187  r_*
+thetastar       0.0187  100\theta_*
+DAstar          0.0188  D_{\rm{M}}(z_*)/{\rm{Gpc}}
+zdrag           0.0400  z_{\rm{drag}}
+rdrag           0.0216  r_{\rm{drag}}
+kd              0.0294  k_{\rm D}
+thetad          0.0381  100\theta_{\rm{D}}
+zeq             0.0167  z_{\rm{eq}}
+keq             0.0167  k_{\rm{eq}}
+thetaeq         0.0170  100\theta_{\rm{eq}}
+thetarseq       0.0169  100\theta_{\rm{s,eq}}
+Hubble015       0.0212  H(0.15)
+DM015           0.0208  D_{\rm{M}}(0.15)
+Hubble038       0.0231  H(0.38)
+DM038           0.0213  D_{\rm{M}}(0.38)
+Hubble051       0.0251  H(0.51)
+DM051           0.0216  D_{\rm{M}}(0.51)
+Hubble061       0.0276  H(0.61)
+DM061           0.0219  D_{\rm{M}}(0.61)
+Hubble233       0.0168  H(2.33)
+DM233           0.0303  D_{\rm{M}}(2.33)
+fsigma8z015     0.0046  f\sigma_8(0.15)
+sigma8z015      0.0336  \sigma_8(0.15)
+fsigma8z038     0.0071  f\sigma_8(0.38)
+sigma8z038      0.0412  \sigma_8(0.38)
+fsigma8z051     0.0106  f\sigma_8(0.51)
+sigma8z051      0.0445  \sigma_8(0.51)
+fsigma8z061     0.0138  f\sigma_8(0.61)
+sigma8z061      0.0464  \sigma_8(0.61)
+fsigma8z233     0.0511  f\sigma_8(2.33)
+sigma8z233      0.0538  \sigma_8(2.33)
+f2000_143       0.0263  f_{2000}^{143}
+f2000_x         0.0336  f_{2000}^{143\times217}
+f2000_217       0.0356  f_{2000}^{217}
+chi2_lowl       0.0252  \chi^2_{\rm lowl}
+chi2_plik       0.0160  \chi^2_{\rm plik}
+chi2_prior      0.0280  \chi^2_{\rm prior}
+chi2_CMB        0.0118  \chi^2_{\rm CMB}
+
+var(mean)/mean(var) for eigenvalues of covariance of means of orthonormalized parameters
+  1     -0.00000
+  2     -0.00000
+  3     -0.00000
+  4     -0.00000
+  5     -0.00000
+  6     -0.00000
+  7     -0.00000
+  8     -0.00000
+  9     -0.00000
+ 10      0.00000
+ 11      0.00000
+ 12      0.00000
+ 13      0.00000
+ 14      0.00000
+ 15      0.00000
+ 16      0.00000
+ 17      0.00000
+ 18      0.00000
+ 19      0.00212
+ 20      0.00387
+ 21      0.00586
+
+Split tests: rms_n([delta(upper/lower quantile)]/sd) n={2,3,4}, limit=95%:
+i.e. mean sample splitting change in the quantiles in units of the st. dev.
+
+omegabh2       0.0748   0.0653   0.0791 upper
+omegabh2       0.0152   0.0322   0.0253 lower
+omegach2       0.0209   0.0266   0.0422 upper
+omegach2       0.0306   0.0253   0.0572 lower
+theta          0.0359   0.0377   0.0506 upper
+theta          0.0560   0.0541   0.0703 lower
+tau            0.0957   0.0928   0.1243 upper
+tau            0.0051   0.0050   0.0083 lower
+logA           0.1160   0.1406   0.1452 upper
+logA           0.0095   0.0347   0.0327 lower
+ns             0.0373   0.0215   0.0646 upper
+ns             0.0405   0.0610   0.0787 lower
+calPlanck      0.0459   0.0453   0.0478 upper
+calPlanck      0.0328   0.0515   0.0559 lower
+acib217        0.0095   0.0243   0.0312 upper
+acib217        0.0010   0.0241   0.0321 lower
+xi             0.0032   0.0063   0.0051 upper
+xi             0.0073   0.0044   0.0084 lower
+asz143         0.0101   0.0266   0.0251 upper
+asz143         0.0226   0.0113   0.0215 lower
+aps100         0.0264   0.0263   0.0408 upper
+aps100         0.0252   0.0293   0.0506 lower
+aps143         0.0274   0.0204   0.0430 upper
+aps143         0.0204   0.0238   0.0207 lower
+aps143217      0.0192   0.0168   0.0197 upper
+aps143217      0.0234   0.0369   0.0409 lower
+aps217         0.0068   0.0352   0.0235 upper
+aps217         0.0285   0.0336   0.0549 lower
+aksz           0.0091   0.0154   0.0164 upper
+aksz           0.0005   0.0047   0.0048 lower
+kgal100        0.0122   0.0245   0.0271 upper
+kgal100        0.0098   0.0340   0.0186 lower
+kgal143        0.0309   0.0227   0.0454 upper
+kgal143        0.0150   0.0537   0.0344 lower
+kgal143217     0.0125   0.0092   0.0189 upper
+kgal143217     0.0098   0.0232   0.0458 lower
+kgal217        0.0059   0.0164   0.0139 upper
+kgal217        0.0329   0.0241   0.0383 lower
+cal0           0.0000   0.0163   0.0208 upper
+cal0           0.0038   0.0230   0.0298 lower
+cal2           0.0159   0.0137   0.0185 upper
+cal2           0.0053   0.0105   0.0136 lower
+H0             0.0538   0.0241   0.0763 upper
+H0             0.0325   0.0185   0.0403 lower
+omegal         0.0388   0.0240   0.0654 upper
+omegal         0.0296   0.0151   0.0359 lower
+omegam         0.0296   0.0151   0.0359 upper
+omegam         0.0388   0.0240   0.0654 lower
+omegamh2       0.0267   0.0229   0.0374 upper
+omegamh2       0.0295   0.0155   0.0612 lower
+omegamh3       0.0376   0.0531   0.0544 upper
+omegamh3       0.0499   0.0262   0.0544 lower
+sigma8         0.0480   0.0626   0.0788 upper
+sigma8         0.0352   0.0310   0.0420 lower
+S8             0.0214   0.0203   0.0395 upper
+S8             0.0384   0.0177   0.0390 lower
+s8omegamp5     0.0214   0.0203   0.0395 upper
+s8omegamp5     0.0384   0.0177   0.0390 lower
+s8omegamp25    0.0120   0.0470   0.0629 upper
+s8omegamp25    0.0357   0.0245   0.0389 lower
+s8h5           0.0021   0.0623   0.0648 upper
+s8h5           0.0405   0.0304   0.0389 lower
+rdragh         0.0429   0.0228   0.0782 upper
+rdragh         0.0289   0.0190   0.0324 lower
+rmsdeflect     0.0186   0.0441   0.0625 upper
+rmsdeflect     0.0402   0.0296   0.0484 lower
+zrei           0.1014   0.1017   0.1226 upper
+zrei           0.0055   0.0055   0.0082 lower
+A              0.1197   0.1451   0.1499 upper
+A              0.0092   0.0336   0.0317 lower
+clamp          0.0596   0.0144   0.0678 upper
+clamp          0.0146   0.0549   0.0426 lower
+DL40           0.0435   0.0106   0.0625 upper
+DL40           0.0110   0.0532   0.0582 lower
+DL220          0.0624   0.0919   0.0573 upper
+DL220          0.0425   0.0223   0.0770 lower
+DL810          0.0456   0.0468   0.0479 upper
+DL810          0.0520   0.0473   0.0601 lower
+DL1420         0.0413   0.0503   0.0478 upper
+DL1420         0.0394   0.0453   0.0415 lower
+DL2000         0.0127   0.0256   0.0444 upper
+DL2000         0.0523   0.0617   0.0609 lower
+ns02           0.0373   0.0215   0.0646 upper
+ns02           0.0405   0.0610   0.0787 lower
+yheused        0.0600   0.0525   0.0634 upper
+yheused        0.0169   0.0357   0.0280 lower
+YpBBN          0.0598   0.0523   0.0632 upper
+YpBBN          0.0168   0.0355   0.0279 lower
+DHBBN          0.0159   0.0338   0.0265 upper
+DHBBN          0.0685   0.0598   0.0724 lower
+age            0.0061   0.0228   0.0269 upper
+age            0.0586   0.0353   0.0643 lower
+zstar          0.0078   0.0450   0.0428 upper
+zstar          0.0512   0.0404   0.0608 lower
+rstar          0.0270   0.0148   0.0416 upper
+rstar          0.0340   0.0202   0.0363 lower
+thetastar      0.0338   0.0341   0.0477 upper
+thetastar      0.0497   0.0589   0.0769 lower
+DAstar         0.0152   0.0114   0.0264 upper
+DAstar         0.0253   0.0157   0.0279 lower
+zdrag          0.0596   0.0688   0.0596 upper
+zdrag          0.0596   0.0486   0.0729 lower
+rdrag          0.0089   0.0137   0.0449 upper
+rdrag          0.0238   0.0300   0.0346 lower
+kd             0.0323   0.0491   0.0528 upper
+kd             0.0072   0.0107   0.0274 lower
+thetad         0.0430   0.0398   0.0393 upper
+thetad         0.0321   0.0507   0.0348 lower
+zeq            0.0267   0.0229   0.0374 upper
+zeq            0.0295   0.0156   0.0612 lower
+keq            0.0267   0.0229   0.0374 upper
+keq            0.0295   0.0156   0.0612 lower
+thetaeq        0.0277   0.0235   0.0591 upper
+thetaeq        0.0232   0.0178   0.0318 lower
+thetarseq      0.0313   0.0213   0.0544 upper
+thetarseq      0.0194   0.0137   0.0286 lower
+Hubble015      0.0497   0.0218   0.0732 upper
+Hubble015      0.0351   0.0237   0.0441 lower
+DM015          0.0388   0.0216   0.0512 upper
+DM015          0.0511   0.0232   0.0711 lower
+Hubble038      0.0489   0.0189   0.0653 upper
+Hubble038      0.0276   0.0270   0.0372 lower
+DM038          0.0340   0.0236   0.0464 upper
+DM038          0.0475   0.0197   0.0695 lower
+Hubble051      0.0495   0.0248   0.0572 upper
+Hubble051      0.0162   0.0166   0.0214 lower
+DM051          0.0324   0.0217   0.0403 upper
+DM051          0.0472   0.0157   0.0674 lower
+Hubble061      0.0489   0.0300   0.0513 upper
+Hubble061      0.0231   0.0147   0.0229 lower
+DM061          0.0298   0.0274   0.0332 upper
+DM061          0.0481   0.0154   0.0646 lower
+Hubble233      0.0323   0.0078   0.0404 upper
+Hubble233      0.0275   0.0138   0.0478 lower
+DM233          0.0021   0.0229   0.0182 upper
+DM233          0.0546   0.0331   0.0587 lower
+fsigma8z015    0.0206   0.0266   0.0431 upper
+fsigma8z015    0.0339   0.0172   0.0345 lower
+sigma8z015     0.0619   0.0699   0.0866 upper
+sigma8z015     0.0333   0.0345   0.0381 lower
+fsigma8z038    0.0083   0.0431   0.0621 upper
+fsigma8z038    0.0308   0.0237   0.0345 lower
+sigma8z038     0.0721   0.0937   0.1107 upper
+sigma8z038     0.0226   0.0208   0.0234 lower
+fsigma8z051    0.0071   0.0522   0.0642 upper
+fsigma8z051    0.0372   0.0288   0.0365 lower
+sigma8z051     0.0807   0.1025   0.1248 upper
+sigma8z051     0.0199   0.0330   0.0295 lower
+fsigma8z061    0.0111   0.0638   0.0714 upper
+fsigma8z061    0.0395   0.0308   0.0411 lower
+sigma8z061     0.0949   0.1030   0.1288 upper
+sigma8z061     0.0150   0.0387   0.0376 lower
+fsigma8z233    0.1051   0.1165   0.1332 upper
+fsigma8z233    0.0022   0.0378   0.0240 lower
+sigma8z233     0.1260   0.1302   0.1592 upper
+sigma8z233     0.0101   0.0263   0.0255 lower
+f2000_143      0.0185   0.0347   0.0477 upper
+f2000_143      0.0262   0.0267   0.0410 lower
+f2000_x        0.0175   0.0233   0.0240 upper
+f2000_x        0.0053   0.0329   0.0643 lower
+f2000_217      0.0069   0.0127   0.0308 upper
+f2000_217      0.0088   0.0318   0.0306 lower
+chi2_lowl      0.0481   0.0477   0.0921 upper
+chi2_lowl      0.0199   0.0192   0.0484 lower
+chi2_plik      0.0321   0.0687   0.0930 upper
+chi2_plik      0.0069   0.0193   0.0174 lower
+chi2_prior     0.0271   0.0443   0.0644 upper
+chi2_prior     0.0082   0.0075   0.0105 lower
+chi2_CMB       0.0068   0.0690   0.0838 upper
+chi2_CMB       0.0050   0.0127   0.0119 lower
+
+Raftery&Lewis statistics
+
+chain  markov_thin  indep_thin    nburn
+   0          23          23          92
+   1          25          26         125
+   2          22          22          88
+   3          22          23          88
+

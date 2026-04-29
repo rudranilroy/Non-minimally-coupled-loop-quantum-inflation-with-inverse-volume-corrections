@@ -1,0 +1,192 @@
+Parameter autocorrelation lengths (effective number of samples N_eff = tot weight/weight length)
+
+               Weight Length   Sample length           N_eff
+omegam                 66.36           18.80            1989
+omegab                 52.89           14.98            2496
+H0                     82.05           23.24            1609
+A                      85.28           24.16            1548
+ns                     56.31           15.95            2344
+DES_b1                 24.99            7.08            5283
+DES_b2                 34.89            9.88            3784
+DES_b3                 36.41           10.31            3626
+DES_b4                 36.87           10.44            3581
+DES_b5                 29.18            8.26            4525
+DES_m1                  8.76            2.48           15069
+DES_m2                  8.91            2.52           14812
+DES_m3                  8.75            2.48           15094
+DES_m4                  8.81            2.49           14993
+DES_AIA                 9.75            2.76           13539
+DES_alphaIA             9.96            2.82           13255
+DES_DzL1                8.71            2.47           15167
+DES_DzL2                8.68            2.46           15216
+DES_DzL3                8.56            2.43           15417
+DES_DzL4                8.73            2.47           15130
+DES_DzL5                8.58            2.43           15393
+DES_DzS1                8.86            2.51           14893
+DES_DzS2                8.84            2.51           14928
+DES_DzS3                9.63            2.73           13713
+DES_DzS4                8.80            2.49           15003
+omegabh2               78.60           22.27            1679
+omegach2               87.35           24.74            1511
+omegal                 66.36           18.80            1989
+logA                   81.14           22.99            1627
+sigma8                 49.34           13.98            2676
+S8                     41.03           11.62            3217
+s8omegamp5             41.03           11.62            3217
+s8omegamp25            34.98            9.91            3774
+chi2_lensing           20.02            5.67            6594
+chi2_DES                9.60            2.72           13751
+chi2_prior              8.26            2.34           15976
+
+
+mean convergence stats using remaining chains
+param sqrt(var(chain mean)/mean(chain var))
+
+omegam           0.0316  \Omega_m
+omegab           0.0146  \Omega_b
+H0               0.0364  H_0
+A                0.0458  10^9 A_s
+ns               0.0394  n_s
+DES_b1           0.0381  b^1_{\rm DES}
+DES_b2           0.0291  b^2_{\rm DES}
+DES_b3           0.0338  b^3_{\rm DES}
+DES_b4           0.0389  b^4_{\rm DES}
+DES_b5           0.0264  b^5_{\rm DES}
+DES_m1           0.0072  m^1_{\rm DES}
+DES_m2           0.0193  m^2_{\rm DES}
+DES_m3           0.0133  m^3_{\rm DES}
+DES_m4           0.0090  m^4_{\rm DES}
+DES_AIA          0.0072  A_{\rm IA,DES}
+DES_alphaIA      0.0241  \alpha_{\rm IA, DES}
+DES_DzL1         0.0190  \Delta z_{\rm l, DES}^1
+DES_DzL2         0.0206  \Delta z_{\rm l, DES}^2
+DES_DzL3         0.0185  \Delta z_{\rm l, DES}^3
+DES_DzL4         0.0223  \Delta z_{\rm l, DES}^4
+DES_DzL5         0.0029  \Delta z_{\rm l, DES}^5
+DES_DzS1         0.0183  \Delta z_{\rm s, DES}^1
+DES_DzS2         0.0186  \Delta z_{\rm s, DES}^2
+DES_DzS3         0.0075  \Delta z_{\rm s, DES}^3
+DES_DzS4         0.0224  \Delta z_{\rm s, DES}^4
+omegabh2         0.0289  \Omega_b h^2
+omegach2         0.0396  \Omega_c h^2
+omegal           0.0316  \Omega_\Lambda
+logA             0.0436  {\rm{ln}}(10^{10} A_s)
+sigma8           0.0450  \sigma_8
+S8               0.0228  S_8
+s8omegamp5       0.0228  \sigma_8 \Omega_m^{0.5}
+s8omegamp25      0.0443  \sigma_8 \Omega_m^{0.25}
+chi2_lensing     0.0332  \chi^2_{\rm lensing}
+chi2_DES         0.0282  \chi^2_{\rm DES}
+chi2_prior       0.0147  \chi^2_{\rm prior}
+
+var(mean)/mean(var) for eigenvalues of covariance of means of orthonormalized parameters
+  1     -0.00000
+  2     -0.00000
+  3     -0.00000
+  4     -0.00000
+  5     -0.00000
+  6     -0.00000
+  7     -0.00000
+  8     -0.00000
+  9     -0.00000
+ 10     -0.00000
+ 11     -0.00000
+ 12      0.00000
+ 13      0.00000
+ 14      0.00000
+ 15      0.00000
+ 16      0.00000
+ 17      0.00000
+ 18      0.00000
+ 19      0.00000
+ 20      0.00000
+ 21      0.00000
+ 22      0.00000
+ 23      0.00300
+ 24      0.00405
+ 25      0.00571
+
+Split tests: rms_n([delta(upper/lower quantile)]/sd) n={2,3,4}, limit=95%:
+i.e. mean sample splitting change in the quantiles in units of the st. dev.
+
+omegam          0.0451   0.0213   0.0499 upper
+omegam          0.0172   0.0152   0.0385 lower
+omegab          0.0021   0.0060   0.0027 upper
+omegab          0.0063   0.0160   0.0185 lower
+H0              0.0224   0.0250   0.0259 upper
+H0              0.0084   0.0110   0.0096 lower
+A               0.0795   0.0929   0.1412 upper
+A               0.0253   0.0334   0.0386 lower
+ns              0.0100   0.0075   0.0204 upper
+ns              0.0002   0.0047   0.0169 lower
+DES_b1          0.0491   0.0543   0.0618 upper
+DES_b1          0.0130   0.0228   0.0494 lower
+DES_b2          0.0143   0.0642   0.0664 upper
+DES_b2          0.0153   0.0388   0.0532 lower
+DES_b3          0.0026   0.0595   0.0405 upper
+DES_b3          0.0041   0.0284   0.0601 lower
+DES_b4          0.0241   0.0478   0.0663 upper
+DES_b4          0.0275   0.0487   0.0429 lower
+DES_b5          0.0078   0.0232   0.0255 upper
+DES_b5          0.0230   0.0445   0.0380 lower
+DES_m1          0.0342   0.0589   0.0597 upper
+DES_m1          0.0107   0.0054   0.0381 lower
+DES_m2          0.0252   0.0326   0.0226 upper
+DES_m2          0.0236   0.0390   0.0293 lower
+DES_m3          0.0058   0.0239   0.0352 upper
+DES_m3          0.0228   0.0195   0.0396 lower
+DES_m4          0.0246   0.0248   0.0255 upper
+DES_m4          0.0025   0.0182   0.0417 lower
+DES_AIA         0.0128   0.0128   0.0159 upper
+DES_AIA         0.0032   0.0052   0.0033 lower
+DES_alphaIA     0.0038   0.0191   0.0045 upper
+DES_alphaIA     0.0028   0.0115   0.0031 lower
+DES_DzL1        0.0033   0.0142   0.0276 upper
+DES_DzL1        0.0013   0.0301   0.0254 lower
+DES_DzL2        0.0064   0.0077   0.0297 upper
+DES_DzL2        0.0419   0.0532   0.0428 lower
+DES_DzL3        0.0250   0.0185   0.0389 upper
+DES_DzL3        0.0153   0.0376   0.0307 lower
+DES_DzL4        0.0088   0.0258   0.0284 upper
+DES_DzL4        0.0253   0.0201   0.0337 lower
+DES_DzL5        0.0061   0.0114   0.0080 upper
+DES_DzL5        0.0016   0.0153   0.0216 lower
+DES_DzS1        0.0027   0.0246   0.0178 upper
+DES_DzS1        0.0233   0.0293   0.0300 lower
+DES_DzS2        0.0307   0.0410   0.0364 upper
+DES_DzS2        0.0044   0.0211   0.0339 lower
+DES_DzS3        0.0376   0.0416   0.0373 upper
+DES_DzS3        0.0004   0.0135   0.0139 lower
+DES_DzS4        0.0021   0.0164   0.0048 upper
+DES_DzS4        0.0087   0.0028   0.0482 lower
+omegabh2        0.0388   0.0888   0.0715 upper
+omegabh2        0.0027   0.0081   0.0158 lower
+omegach2        0.0601   0.1171   0.1025 upper
+omegach2        0.0359   0.0358   0.0500 lower
+omegal          0.0172   0.0152   0.0385 upper
+omegal          0.0451   0.0213   0.0499 lower
+logA            0.0594   0.0692   0.1056 upper
+logA            0.0345   0.0456   0.0525 lower
+sigma8          0.0299   0.0573   0.0589 upper
+sigma8          0.0184   0.0382   0.0289 lower
+S8              0.0689   0.0280   0.0834 upper
+S8              0.0094   0.0208   0.0215 lower
+s8omegamp5      0.0689   0.0280   0.0834 upper
+s8omegamp5      0.0094   0.0208   0.0215 lower
+s8omegamp25     0.0177   0.0474   0.0481 upper
+s8omegamp25     0.0459   0.0358   0.0556 lower
+chi2_lensing    0.0649   0.0786   0.0637 upper
+chi2_lensing    0.0024   0.0029   0.0036 lower
+chi2_DES        0.0209   0.0367   0.0384 upper
+chi2_DES        0.0054   0.0197   0.0285 lower
+chi2_prior      0.0278   0.0163   0.0522 upper
+chi2_prior      0.0076   0.0087   0.0110 lower
+
+Raftery&Lewis statistics
+
+chain  markov_thin  indep_thin    nburn
+   0          90          97         540
+   1          59         102         472
+   2          62          63         372
+   3          48          54         240
+
