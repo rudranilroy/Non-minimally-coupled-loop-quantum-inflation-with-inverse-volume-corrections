@@ -1,0 +1,97 @@
+Parameter autocorrelation lengths (effective number of samples N_eff = tot weight/weight length)
+
+               Weight Length   Sample length           N_eff
+omegam                267.42           53.43             700
+omegab                236.40           47.23             792
+H0                    278.60           55.66             672
+mnu                   122.32           24.44            1532
+A                     210.47           42.05             890
+ns                    148.13           29.60            1265
+omegabh2               44.15            8.82            4244
+omegach2              161.82           32.33            1158
+omegal                267.42           53.43             700
+omeganuh2             122.32           24.44            1532
+logA                  200.60           40.08             934
+sigma8                262.27           52.40             714
+S8                    239.49           47.85             782
+s8omegamp5            239.49           47.85             782
+s8omegamp25            82.20           16.42            2280
+chi2_lensing           48.30            9.65            3880
+chi2_prior             22.02            4.40            8511
+
+
+mean convergence stats using remaining chains
+param sqrt(var(chain mean)/mean(chain var))
+
+omegam           0.0487  \Omega_m
+omegab           0.0475  \Omega_b
+H0               0.0502  H_0
+mnu              0.0213  \Sigma m_\nu
+A                0.0553  10^9 A_s
+ns               0.0420  n_s
+omegabh2         0.0193  \Omega_b h^2
+omegach2         0.0313  \Omega_c h^2
+omegal           0.0487  \Omega_\Lambda
+omeganuh2        0.0213  \Omega_\nu h^2
+logA             0.0504  {\rm{ln}}(10^{10} A_s)
+sigma8           0.0453  \sigma_8
+S8               0.0536  S_8
+s8omegamp5       0.0536  \sigma_8 \Omega_m^{0.5}
+s8omegamp25      0.0316  \sigma_8 \Omega_m^{0.25}
+chi2_lensing     0.0545  \chi^2_{\rm lensing}
+chi2_prior       0.0323  \chi^2_{\rm prior}
+
+var(mean)/mean(var) for eigenvalues of covariance of means of orthonormalized parameters
+  1     -0.00000
+  2      0.00000
+  3      0.00000
+  4      0.00019
+  5      0.00215
+  6      0.00663
+
+Split tests: rms_n([delta(upper/lower quantile)]/sd) n={2,3,4}, limit=95%:
+i.e. mean sample splitting change in the quantiles in units of the st. dev.
+
+omegam          0.0557   0.0812   0.0572 upper
+omegam          0.0880   0.0915   0.0864 lower
+omegab          0.0120   0.0045   0.0157 upper
+omegab          0.0236   0.0108   0.0404 lower
+H0              0.0451   0.0296   0.0954 upper
+H0              0.0064   0.0027   0.0096 lower
+mnu             0.0056   0.0055   0.0065 upper
+mnu             0.0028   0.0084   0.0152 lower
+A               0.0692   0.0595   0.0689 upper
+A               0.0513   0.0492   0.0527 lower
+ns              0.0070   0.0062   0.0110 upper
+ns              0.0109   0.0099   0.0133 lower
+omegabh2        0.0531   0.0282   0.0574 upper
+omegabh2        0.0330   0.0276   0.0395 lower
+omegach2        0.0490   0.0388   0.0477 upper
+omegach2        0.0293   0.0229   0.0306 lower
+omegal          0.0880   0.0915   0.0864 upper
+omegal          0.0557   0.0812   0.0572 lower
+omeganuh2       0.0056   0.0055   0.0065 upper
+omeganuh2       0.0028   0.0084   0.0152 lower
+logA            0.0497   0.0428   0.0495 upper
+logA            0.0739   0.0705   0.0759 lower
+sigma8          0.1139   0.1382   0.1302 upper
+sigma8          0.0180   0.0203   0.0193 lower
+S8              0.0494   0.0635   0.0552 upper
+S8              0.0385   0.0961   0.0883 lower
+s8omegamp5      0.0494   0.0635   0.0552 upper
+s8omegamp5      0.0385   0.0961   0.0883 lower
+s8omegamp25     0.0654   0.0890   0.1006 upper
+s8omegamp25     0.0179   0.0481   0.0364 lower
+chi2_lensing    0.0953   0.1637   0.2126 upper
+chi2_lensing    0.0117   0.0094   0.0118 lower
+chi2_prior      0.1036   0.0946   0.1288 upper
+chi2_prior      0.0000   0.0001   0.0001 lower
+
+Raftery&Lewis statistics
+
+chain  markov_thin  indep_thin    nburn
+   0          89         150         890
+   1          75         185        1125
+   2          88          98         792
+   3          78         173        1216
+

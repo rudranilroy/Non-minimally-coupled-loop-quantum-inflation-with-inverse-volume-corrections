@@ -1,0 +1,93 @@
+Parameter autocorrelation lengths (effective number of samples N_eff = tot weight/weight length)
+
+               Weight Length   Sample length           N_eff
+omegam                151.30           36.03            1683
+omegab                 76.97           18.33            3309
+H0                    105.75           25.18            2408
+mnu                    83.99           20.00            3032
+A                     124.29           29.60            2049
+ns                     91.37           21.76            2787
+omegabh2               81.68           19.45            3118
+omegach2               82.82           19.72            3075
+omegal                151.30           36.03            1683
+omeganuh2              83.99           20.00            3032
+logA                  117.84           28.06            2161
+sigma8                111.53           26.56            2283
+S8                    125.42           29.87            2030
+s8omegamp5            125.42           29.87            2030
+s8omegamp25            51.17           12.18            4977
+chi2_lensing           37.53            8.94            6786
+
+
+mean convergence stats using remaining chains
+param sqrt(var(chain mean)/mean(chain var))
+
+omegam           0.0434  \Omega_m
+omegab           0.0499  \Omega_b
+H0               0.0771  H_0
+mnu              0.0304  \Sigma m_\nu
+A                0.0297  10^9 A_s
+ns               0.0381  n_s
+omegabh2         0.0561  \Omega_b h^2
+omegach2         0.0554  \Omega_c h^2
+omegal           0.0434  \Omega_\Lambda
+omeganuh2        0.0304  \Omega_\nu h^2
+logA             0.0299  {\rm{ln}}(10^{10} A_s)
+sigma8           0.0333  \sigma_8
+S8               0.0484  S_8
+s8omegamp5       0.0484  \sigma_8 \Omega_m^{0.5}
+s8omegamp25      0.0282  \sigma_8 \Omega_m^{0.25}
+chi2_lensing     0.0439  \chi^2_{\rm lensing}
+
+var(mean)/mean(var) for eigenvalues of covariance of means of orthonormalized parameters
+  1     -0.00000
+  2      0.00000
+  3      0.00000
+  4      0.00199
+  5      0.00380
+  6      0.00994
+
+Split tests: rms_n([delta(upper/lower quantile)]/sd) n={2,3,4}, limit=95%:
+i.e. mean sample splitting change in the quantiles in units of the st. dev.
+
+omegam          0.0463   0.0283   0.1703 upper
+omegam          0.0283   0.0224   0.0805 lower
+omegab          0.0093   0.0099   0.0148 upper
+omegab          0.0019   0.0067   0.0070 lower
+H0              0.0051   0.0196   0.0255 upper
+H0              0.0032   0.0054   0.0042 lower
+mnu             0.0024   0.0103   0.0095 upper
+mnu             0.0010   0.0071   0.0037 lower
+A               0.0789   0.0985   0.1124 upper
+A               0.0333   0.0343   0.0543 lower
+ns              0.0021   0.0070   0.0039 upper
+ns              0.0046   0.0017   0.0125 lower
+omegabh2        0.0184   0.0508   0.0317 upper
+omegabh2        0.0127   0.0203   0.0225 lower
+omegach2        0.0373   0.0113   0.0600 upper
+omegach2        0.0668   0.0824   0.0905 lower
+omegal          0.0283   0.0224   0.0805 upper
+omegal          0.0463   0.0283   0.1703 lower
+omeganuh2       0.0024   0.0103   0.0095 upper
+omeganuh2       0.0010   0.0071   0.0037 lower
+logA            0.0575   0.0713   0.0817 upper
+logA            0.0476   0.0493   0.0784 lower
+sigma8          0.0611   0.0445   0.1006 upper
+sigma8          0.0023   0.0195   0.0072 lower
+S8              0.0373   0.0407   0.1540 upper
+S8              0.0522   0.0323   0.1374 lower
+s8omegamp5      0.0373   0.0407   0.1540 upper
+s8omegamp5      0.0522   0.0323   0.1374 lower
+s8omegamp25     0.0256   0.0124   0.0323 upper
+s8omegamp25     0.0133   0.0055   0.0613 lower
+chi2_lensing    0.1298   0.0376   0.1595 upper
+chi2_lensing    0.0059   0.0048   0.0101 lower
+
+Raftery&Lewis statistics
+
+chain  markov_thin  indep_thin    nburn
+   0          61         117         427
+   1         116         209        1276
+   2          67          68         469
+   3          76         150         608
+

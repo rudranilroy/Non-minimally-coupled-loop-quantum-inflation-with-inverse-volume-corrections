@@ -1,0 +1,147 @@
+Parameter autocorrelation lengths (effective number of samples N_eff = tot weight/weight length)
+
+              Weight Length   Sample length           N_eff
+omegam               348.88           65.96            1376
+omegab               115.66           21.87            4152
+H0                   136.37           25.78            3521
+mnu                  112.47           21.26            4270
+A                    238.32           45.05            2015
+ns                   123.83           23.41            3878
+DES_m1                16.40            3.10           29286
+DES_m2                16.45            3.11           29196
+DES_m3                17.51            3.31           27424
+DES_m4                17.27            3.26           27812
+DES_AIA               93.56           17.69            5133
+DES_alphaIA           19.79            3.74           24263
+DES_DzS1              16.93            3.20           28361
+DES_DzS2              16.74            3.17           28680
+DES_DzS3              16.88            3.19           28454
+DES_DzS4              16.94            3.20           28343
+omegabh2             116.99           22.12            4104
+omegach2             210.79           39.85            2278
+omegal               348.88           65.96            1376
+omeganuh2            112.47           21.26            4270
+logA                 290.59           54.94            1652
+sigma8               259.61           49.08            1849
+S8                   109.94           20.78            4368
+s8omegamp5           109.94           20.78            4368
+s8omegamp25          240.26           45.42            1998
+chi2_DES              32.46            6.14           14793
+chi2_prior            15.49            2.93           31004
+
+
+mean convergence stats using remaining chains
+param sqrt(var(chain mean)/mean(chain var))
+
+omegam          0.0543  \Omega_m
+omegab          0.0503  \Omega_b
+H0              0.0357  H_0
+mnu             0.0395  \Sigma m_\nu
+A               0.0524  10^9 A_s
+ns              0.0321  n_s
+DES_m1          0.0038  m^1_{\rm DES}
+DES_m2          0.0131  m^2_{\rm DES}
+DES_m3          0.0088  m^3_{\rm DES}
+DES_m4          0.0117  m^4_{\rm DES}
+DES_AIA         0.0119  A_{\rm IA,DES}
+DES_alphaIA     0.0132  \alpha_{\rm IA, DES}
+DES_DzS1        0.0144  \Delta z_{\rm s, DES}^1
+DES_DzS2        0.0098  \Delta z_{\rm s, DES}^2
+DES_DzS3        0.0060  \Delta z_{\rm s, DES}^3
+DES_DzS4        0.0040  \Delta z_{\rm s, DES}^4
+omegabh2        0.0459  \Omega_b h^2
+omegach2        0.0244  \Omega_c h^2
+omegal          0.0543  \Omega_\Lambda
+omeganuh2       0.0395  \Omega_\nu h^2
+logA            0.0578  {\rm{ln}}(10^{10} A_s)
+sigma8          0.0447  \sigma_8
+S8              0.0280  S_8
+s8omegamp5      0.0280  \sigma_8 \Omega_m^{0.5}
+s8omegamp25     0.0454  \sigma_8 \Omega_m^{0.25}
+chi2_DES        0.0330  \chi^2_{\rm DES}
+chi2_prior      0.0059  \chi^2_{\rm prior}
+
+var(mean)/mean(var) for eigenvalues of covariance of means of orthonormalized parameters
+  1     -0.00000
+  2     -0.00000
+  3     -0.00000
+  4     -0.00000
+  5     -0.00000
+  6      0.00000
+  7      0.00000
+  8      0.00000
+  9      0.00000
+ 10      0.00000
+ 11      0.00000
+ 12      0.00000
+ 13      0.00000
+ 14      0.00156
+ 15      0.00651
+ 16      0.00860
+
+Split tests: rms_n([delta(upper/lower quantile)]/sd) n={2,3,4}, limit=95%:
+i.e. mean sample splitting change in the quantiles in units of the st. dev.
+
+omegam         0.0126   0.1677   0.3487 upper
+omegam         0.0083   0.0227   0.0211 lower
+omegab         0.0081   0.0021   0.0094 upper
+omegab         0.0051   0.0041   0.0054 lower
+H0             0.0017   0.0040   0.0060 upper
+H0             0.0124   0.0121   0.0140 lower
+mnu            0.0034   0.0017   0.0081 upper
+mnu            0.0051   0.0062   0.0068 lower
+A              0.0316   0.0428   0.0323 upper
+A              0.0069   0.0061   0.0622 lower
+ns             0.0042   0.0078   0.0047 upper
+ns             0.0064   0.0062   0.0092 lower
+DES_m1         0.0132   0.0181   0.0202 upper
+DES_m1         0.0078   0.0235   0.0245 lower
+DES_m2         0.0094   0.0132   0.0110 upper
+DES_m2         0.0034   0.0158   0.0406 lower
+DES_m3         0.0087   0.0044   0.0112 upper
+DES_m3         0.0122   0.0181   0.0141 lower
+DES_m4         0.0070   0.0150   0.0258 upper
+DES_m4         0.0083   0.0181   0.0169 lower
+DES_AIA        0.0020   0.0052   0.0087 upper
+DES_AIA        0.3175   0.3769   0.3169 lower
+DES_alphaIA    0.0014   0.0015   0.0024 upper
+DES_alphaIA    0.0045   0.0140   0.0280 lower
+DES_DzS1       0.0118   0.0104   0.0104 upper
+DES_DzS1       0.0226   0.0265   0.0272 lower
+DES_DzS2       0.0019   0.0078   0.0108 upper
+DES_DzS2       0.0172   0.0222   0.0367 lower
+DES_DzS3       0.0060   0.0156   0.0190 upper
+DES_DzS3       0.0160   0.0205   0.0246 lower
+DES_DzS4       0.0093   0.0147   0.0177 upper
+DES_DzS4       0.0095   0.0041   0.0131 lower
+omegabh2       0.0259   0.0267   0.0258 upper
+omegabh2       0.0143   0.0088   0.0225 lower
+omegach2       0.0017   0.0650   0.1607 upper
+omegach2       0.0073   0.0082   0.0246 lower
+omegal         0.0083   0.0227   0.0211 upper
+omegal         0.0126   0.1677   0.3487 lower
+omeganuh2      0.0034   0.0017   0.0081 upper
+omeganuh2      0.0051   0.0062   0.0068 lower
+logA           0.0154   0.0208   0.0157 upper
+logA           0.0191   0.0169   0.1713 lower
+sigma8         0.0067   0.0208   0.0367 upper
+sigma8         0.0275   0.0828   0.1520 lower
+S8             0.0106   0.0208   0.0291 upper
+S8             0.1554   0.1694   0.1676 lower
+s8omegamp5     0.0106   0.0208   0.0291 upper
+s8omegamp5     0.1554   0.1694   0.1676 lower
+s8omegamp25    0.0011   0.0209   0.0349 upper
+s8omegamp25    0.0543   0.0859   0.1535 lower
+chi2_DES       0.0174   0.0309   0.0912 upper
+chi2_DES       0.0039   0.0072   0.0145 lower
+chi2_prior     0.0050   0.0287   0.0118 upper
+chi2_prior     0.0056   0.0050   0.0095 lower
+
+Raftery&Lewis statistics
+
+chain  markov_thin  indep_thin    nburn
+   0         108         122         972
+   1         126         247        1386
+   2      Failed/not enough samples
+   3         101         154         707
+

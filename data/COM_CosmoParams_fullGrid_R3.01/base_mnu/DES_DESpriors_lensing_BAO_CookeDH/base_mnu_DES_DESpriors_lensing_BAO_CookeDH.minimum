@@ -1,0 +1,66 @@
+ -log(Like) =    257.038950394790     
+  chi-sq    =    514.077900789579     
+ 
+    1  0.3165393E+00   omegam                \Omega_m
+    2  0.4958811E-01   omegab                \Omega_b
+    3  0.6694406E+02   H0                    H_0
+    5  0.9651672E+00   mnu                   \Sigma m_\nu
+   10  0.3114653E+01   A                     10^9 A_s
+   11  0.1069917E+01   ns                    n_s
+   18  0.1578461E+01   DES_b1                b^1_{\rm DES}
+   19  0.1793029E+01   DES_b2                b^2_{\rm DES}
+   20  0.1773167E+01   DES_b3                b^3_{\rm DES}
+   21  0.2134991E+01   DES_b4                b^4_{\rm DES}
+   22  0.2206317E+01   DES_b5                b^5_{\rm DES}
+   23  0.1244343E-01   DES_m1                m^1_{\rm DES}
+   24  0.1502714E-01   DES_m2                m^2_{\rm DES}
+   25  0.4513174E-02   DES_m3                m^3_{\rm DES}
+   26  0.8275449E-02   DES_m4                m^4_{\rm DES}
+   27  0.4212485E+00   DES_AIA               A_{\rm IA,DES}
+   28 -0.2109617E+01   DES_alphaIA           \alpha_{\rm IA, DES}
+   30  0.3683517E-02   DES_DzL1              \Delta z_{\rm l, DES}^1
+   31  0.9937283E-03   DES_DzL2              \Delta z_{\rm l, DES}^2
+   32  0.3839521E-02   DES_DzL3              \Delta z_{\rm l, DES}^3
+   33  0.1486362E-02   DES_DzL4              \Delta z_{\rm l, DES}^4
+   34  0.2367879E-03   DES_DzL5              \Delta z_{\rm l, DES}^5
+   35 -0.8065347E-03   DES_DzS1              \Delta z_{\rm s, DES}^1
+   36 -0.2929997E-01   DES_DzS2              \Delta z_{\rm s, DES}^2
+   37  0.5742370E-02   DES_DzS3              \Delta z_{\rm s, DES}^3
+   38 -0.2423251E-01   DES_DzS4              \Delta z_{\rm s, DES}^4
+ 
+    4  0.0000000E+00   omegak                \Omega_K
+    6 -0.1000000E+01   w                     w
+    7  0.0000000E+00   wa                    w_a
+    8  0.3046000E+01   nnu                   N_{eff}
+    9  0.2453410E+00   yhe                   Y_{He}
+   12  0.0000000E+00   nrun                  n_{\rm run}
+   13  0.0000000E+00   nrunrun               n_{\rm run, run}
+   14  0.0000000E+00   r                     r
+   15  0.0000000E+00   nt                    n_t
+   16  0.0000000E+00   ntrun                 n_{t,{\rm run}}
+   17  0.1000000E+01   Aphiphi               A^{\phi\phi}_L
+   29  0.6200000E+00   DES_z0AI              z_{0 {\rm IA, DES}}
+ 
+   39  0.2222295E-01   omegabh2              \Omega_b h^2
+   40  0.1092565E+00   omegach2              \Omega_c h^2
+   41  0.6834607E+00   omegal                \Omega_\Lambda
+   42  0.1037786E-01   omeganuh2             \Omega_\nu h^2
+   43  0.3438703E+01   logA                  {\rm{ln}}(10^{10} A_s)
+   44  0.7621421E+00   sigma8                \sigma_8
+   45  0.7828690E+00   S8                    S_8
+   46  0.4287950E+00   s8omegamp5            \sigma_8 \Omega_m^{0.5}
+   47  0.5716666E+00   s8omegamp25           \sigma_8 \Omega_m^{0.25}
+   48  0.7776381E+01   chi2_lensing          \chi^2_{\rm lensing}
+   49  0.1717335E-02   chi2_6DF              \chi^2_{\rm 6DF}
+   50  0.1607985E+01   chi2_MGS              \chi^2_{\rm MGS}
+   51  0.2831222E+01   chi2_DR12BAO          \chi^2_{\rm DR12BAO}
+   52  0.5005916E+03   chi2_DES              \chi^2_{\rm DES}
+   53  0.1269044E+01   chi2_prior            \chi^2_{\rm prior}
+   54  0.4440924E+01   chi2_BAO              \chi^2_{\rm BAO}
+ 
+ -log(Like)     chi-sq   data
+      3.888      7.776   CMB: lensing = smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8_CMBmarged
+      0.001      0.002   BAO: 6DF
+      0.804      1.608   BAO: MGS
+      1.416      2.831   BAO: DR12BAO
+    250.296    500.592   WL: DES = DES_1YR_final
