@@ -11,6 +11,10 @@ $^d$ Istituto Nazionale di Fisica Nucleare (INFN), Sezione di Napoli, Via Cinthi
 
 $^e$ Scuola Superiore Meridionale, Via Mezzocannone 4, I-80134, Napoli, Italy
 
+---
+
+Welcome! This repository contains the analytical derivations, numerical data, and plotting scripts accompanying the research paper "[Non-minimally coupled loop quantum inflation with inverse-volume corrections](https://arxiv.org/abs/2603.04182)".  The codebase provided here contains the complete computational framework used to investigate slow-roll inflation driven by a scalar field non-minimally coupled to gravity within the effective framework of Loop Quantum Cosmology (LQC). Using the included Mathematica notebooks and Python scripts, you can fully reproduce the theoretical predictions and background dynamics for two physically motivated models: a Higgs-like quartic potential and string-inspired fractional monomial potentials.  Additionally, the repository includes the computational tools necessary to evaluate the phase-space probability of achieving a sufficiently long inflationary phase, demonstrating how non-minimal coupling reshapes the favorable initial conditions following a quantum bounce.
+
 
 ## [Algebraic Computations](https://github.com/rudranilroy/arXiv-2603.04182/tree/main/Algebraic%20Computations)
 This folder contains the Mathematica notebooks used to perform the core algebraic computations and generate the phase-space probability plots presented in the paper. The code files are categorized based on the specific inflationary potential being evaluated: the Higgs-like quartic potential ($V\propto\phi^4$) and the string-inspired fractional monomial potentials ($V\propto\phi^{1/3}$ and $V\propto\phi^{2/3}$).
