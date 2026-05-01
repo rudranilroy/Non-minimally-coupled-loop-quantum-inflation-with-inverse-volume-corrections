@@ -17,12 +17,20 @@ This folder contains the Mathematica notebooks used to perform the core algebrai
 
 **What the codes do:**
 
-- <u>**Spacetime Geometry:**<\u> Systematically derives the background geometrical quantities, including Christoffel symbols, the Riemann and Ricci tensors, and the Ricci scalar.
+- **Spacetime Geometry:** Systematically derives the background geometrical quantities, including Christoffel symbols, the Riemann and Ricci tensors, and the Ricci scalar.
 
-- <u>**Equations of Motion:**<\u> Computes both the classical and the effective Loop Quantum Cosmology (LQC) equations of motion for a scalar field non-minimally coupled to gravity, incorporating inverse-volume corrections.
+- **Equations of Motion:** Computes both the classical and the effective Loop Quantum Cosmology (LQC) equations of motion for a scalar field non-minimally coupled to gravity, incorporating inverse-volume corrections.
 
-- <u>**Slow-Roll Approximation:**<\u> Applies slow-roll conditions to evaluate the Hubble parameter and the inflaton's evolutionary dynamics.
+- **Slow-Roll Approximation:** Applies slow-roll conditions to evaluate the Hubble parameter and the inflaton's evolutionary dynamics.
 
-- <u>**Probability of Inflation:**<\u> Calculates the canonical Liouville measure over the effective phase space to determine the fraction of post-bounce trajectories that lead to sufficient inflation.
+- **Probability of Inflation:** Calculates the canonical Liouville measure over the effective phase space to determine the fraction of post-bounce trajectories that lead to sufficient inflation.
 
-- <u>**Visualization:**<\u> Ultimately outputs the evaluated probability expressions and generates the 3D surface plots (finalplot and finalplotlqg) to map the typicality of inflation across the non-minimal coupling ($\xi$) and e-folding ($N$) parameter space.
+- **Visualization:** Ultimately outputs the evaluated probability expressions and generates the 3D surface plots (finalplot and finalplotlqg) to map the typicality of inflation across the non-minimal coupling ($\xi$) and e-folding ($N$) parameter space.
+
+
+## [Numerical Computations and Plots](https://github.com/rudranilroy/arXiv-2603.04182/tree/main/Numerical%20Computations%20and%20Plots)
+The folder contains the Python and Mathematica scripts used to evaluate the model's numerical predictions, constrain the parameter space, and generate the figures presented in the paper. To ensure clarity, the code is organized into five distinct subfolders based on the specific analysis performed:
+
+- [**Inverse Volume Correction:**](https://github.com/rudranilroy/arXiv-2603.04182/tree/main/Numerical%20Computations%20and%20Plots/Inverse%20Volume%20Correction) Contains Python code dedicated to evaluating and plotting the behavior of the LQC inverse-volume correction factor, $D_l(q)$, across the quantum-to-classical transition.
+
+- **Slow-Roll Parameters**
