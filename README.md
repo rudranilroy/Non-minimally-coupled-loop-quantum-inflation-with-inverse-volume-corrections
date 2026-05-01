@@ -31,6 +31,12 @@ This folder contains the Mathematica notebooks used to perform the core algebrai
 ## [Numerical Computations and Plots](https://github.com/rudranilroy/arXiv-2603.04182/tree/main/Numerical%20Computations%20and%20Plots)
 The folder contains the Python and Mathematica scripts used to evaluate the model's numerical predictions, constrain the parameter space, and generate the figures presented in the paper. To ensure clarity, the code is organized into five distinct subfolders based on the specific analysis performed:
 
-- [**Inverse Volume Correction:**](https://github.com/rudranilroy/arXiv-2603.04182/tree/main/Numerical%20Computations%20and%20Plots/Inverse%20Volume%20Correction) Contains Python code dedicated to evaluating and plotting the behavior of the LQC inverse-volume correction factor, $D_l(q)$, across the quantum-to-classical transition.
+- [**Inverse Volume Correction :**](https://github.com/rudranilroy/arXiv-2603.04182/tree/main/Numerical%20Computations%20and%20Plots/Inverse%20Volume%20Correction) Contains Python code dedicated to evaluating and plotting the behavior of the LQC inverse-volume correction factor, $D_l(q)$, across the quantum-to-classical transition.
 
-- **Slow-Roll Parameters**
+- [**Slow-Roll Parameters :**](https://github.com/rudranilroy/arXiv-2603.04182/tree/main/Numerical%20Computations%20and%20Plots/Slow-Roll%20Parameters) Includes both Python and Mathematica scripts used to track and plot the dynamical evolution of the modified slow-roll parameters, verifying the consistency and natural termination of the inflationary regime.
+
+- [**alpha_s - n_s :**](https://github.com/rudranilroy/arXiv-2603.04182/tree/main/Numerical%20Computations%20and%20Plots/alpha_s%20-%20n_s) Scripts that compute and plot the theoretical predictions for the running of the spectral index ($\alpha_s$) against the scalar spectral index ($n_s$). The outputs are superimposed on the $1\sigma$ and $2\sigma$ confidence contours from the Planck 2018 (P-LB-BK18) and ACT DR6 (P-ACT-LB-BK18) datasets.
+
+- [**n_s - r :**](https://github.com/rudranilroy/arXiv-2603.04182/tree/main/Numerical%20Computations%20and%20Plots/n_s%20-%20r) Codes that generate plots of the theoretical tensor-to-scalar ratio ($r$) versus the scalar spectral index ($n_s$), displayed alongside the same combined observational data contours to highlight the model's viability.
+
+- [**parameter :**](https://github.com/rudranilroy/arXiv-2603.04182/tree/main/Numerical%20Computations%20and%20Plots/parameter) Contains the scripts used to filter and visualize the phenomenologically viable parameter space. It extracts and plots the allowed regions for the non-minimal coupling strength ($\xi$) and the number of e-folds ($N$) that strictly satisfy the combined observational bounds at various confidence levels.
