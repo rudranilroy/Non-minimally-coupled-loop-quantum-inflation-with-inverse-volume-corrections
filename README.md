@@ -5,7 +5,7 @@ $^a$ Departamento de Física, Facultad de Ciencias, Universidad de Tarapacá, Ca
 
 $^b$ Instituto de Física, Pontificia Universidad Católica de Valparaíso, Casilla 4950, Valparaíso, Chile
 
-$^c$ Dipartimento di Fisica “E. Pancini”, Università degli Studi di Napoli “Federico II”, Complesso Universitario di Monte Sant’Angelo, Edificio G,Via Cinthia, I-80126, Napoli, Italy
+$^c$ Dipartimento di Fisica “E. Pancini”, Università degli Studi di Napoli “Federico II”, Complesso Universitario di Monte Sant’Angelo, Edificio G, Via Cinthia, I-80126, Napoli, Italy
 
 $^d$ Istituto Nazionale di Fisica Nucleare (INFN), Sezione di Napoli, Via Cinthia 9, I-80126, Napoli, Italy
 
