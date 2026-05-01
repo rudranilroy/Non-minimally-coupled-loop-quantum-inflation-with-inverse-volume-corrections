@@ -17,4 +17,12 @@ This folder contains the Mathematica notebooks used to perform the core algebrai
 
 **What the codes do:**
 
-- <u>**Spacetime Geometry<\u>:**
+- <u>**Spacetime Geometry:**<\u> Systematically derives the background geometrical quantities, including Christoffel symbols, the Riemann and Ricci tensors, and the Ricci scalar.
+
+- <u>**Equations of Motion:**<\u> Computes both the classical and the effective Loop Quantum Cosmology (LQC) equations of motion for a scalar field non-minimally coupled to gravity, incorporating inverse-volume corrections.
+
+- <u>**Slow-Roll Approximation:**<\u> Applies slow-roll conditions to evaluate the Hubble parameter and the inflaton's evolutionary dynamics.
+
+- <u>**Probability of Inflation:**<\u> Calculates the canonical Liouville measure over the effective phase space to determine the fraction of post-bounce trajectories that lead to sufficient inflation.
+
+- <u>**Visualization:**<\u> Ultimately outputs the evaluated probability expressions and generates the 3D surface plots (finalplot and finalplotlqg) to map the typicality of inflation across the non-minimal coupling ($\xi$) and e-folding ($N$) parameter space.
