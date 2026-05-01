@@ -50,6 +50,6 @@ The folder contains the Python and Mathematica scripts used to evaluate the mode
 ### Data Availability
 The observational Cosmic Microwave Background (CMB) datasets used for parameter constraints in this study are publicly available at the following links:
 
-Planck (2018): [Cosmology Data](https://esdcdoi.esac.esa.int/doi/html/data/astronomy/planck/Cosmology.html)
+Planck (2018): [Cosmological Parameters Full Grid](https://esdcdoi.esac.esa.int/doi/html/data/astronomy/planck/Cosmology.html)
 
-ACT (DR6.02): [Chains and Likelihoods](https://lambda.gsfc.nasa.gov/product/act/act_dr6.02/act_dr6.02_chains_r_get.html)
+ACT (DR6.02): [MCMC Chains: R Model](https://lambda.gsfc.nasa.gov/product/act/act_dr6.02/act_dr6.02_chains_r_get.html)
