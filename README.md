@@ -1,4 +1,4 @@
-# Non-minimally coupled loop quantum inflation with inverse volume corrections
+# [Non-minimally coupled loop quantum inflation with inverse volume corrections](https://arxiv.org/abs/2603.04182)
 Rudranil Roy $^a$, Giovanni Otalora $^a$, Joel Saavedra $^b$, Salvatore Capozziello $^{c,d,e}$
 
 $^a$ Departamento de Física, Facultad de Ciencias, Universidad de Tarapacá, Casilla 7-D, Arica, Chile
@@ -11,4 +11,3 @@ $^d$ Istituto Nazionale di Fisica Nucleare (INFN), Sezione di Napoli, Via Cinthi
 
 $^e$ Scuola Superiore Meridionale, Via Mezzocannone 4, I-80134, Napoli, Italy
 
-[arXiv:2603.04182 [gr-qc]](https://arxiv.org/abs/2603.04182)
