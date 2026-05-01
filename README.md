@@ -10,3 +10,5 @@ $^c$ Dipartimento di Fisica “E. Pancini”, Università degli Studi di Napoli 
 $^d$ Istituto Nazionale di Fisica Nucleare (INFN), Sezione di Napoli, Via Cinthia 9, I-80126, Napoli, Italy
 
 $^e$ Scuola Superiore Meridionale, Via Mezzocannone 4, I-80134, Napoli, Italy
+
+[arXiv:2603.04182 [gr-qc]](https://arxiv.org/abs/2603.04182)
