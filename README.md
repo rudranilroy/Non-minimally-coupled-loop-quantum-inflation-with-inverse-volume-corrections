@@ -13,5 +13,8 @@ $^e$ Scuola Superiore Meridionale, Via Mezzocannone 4, I-80134, Napoli, Italy
 
 
 ## [Algebraic Computations](https://github.com/rudranilroy/arXiv-2603.04182/tree/main/Algebraic%20Computations)
+This folder contains the Mathematica notebooks used to perform the core algebraic computations and generate the phase-space probability plots presented in the paper. The code files are categorized based on the specific inflationary potential being evaluated: the Higgs-like quartic potential ($V\propto\phi^4$) and the string-inspired fractional monomial potentials ($V\propto\phi^{1/3}$ and $V\propto\phi^{2/3}$).
 
+**What the codes do:**
 
+- <u>**Spacetime Geometry<\u>:**
